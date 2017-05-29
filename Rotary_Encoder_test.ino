@@ -22,9 +22,9 @@ void setup()
 void loop()
 {
 	digitalWrite(LED_BUILTIN, HIGH);
-	delay(10*counter); 					// delay time from 20 to 500 ms
+	delay(10*counter); 					// delay time from 20 to 1000 ms
 	digitalWrite(LED_BUILTIN, LOW);
-	delay(10*counter); 					// delay time from 20 to 500 ms
+	delay(10*counter); 					// delay time from 20 to 1000 ms
 }
 
 void intA()
